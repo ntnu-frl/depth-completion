@@ -1,0 +1,15 @@
+checkpoint: dataset/checkpoints/model.pth
+encoder: vits
+depth_min: 0.5
+depth_max: 80.0
+focal_length_canonical: 900.0
+resolution: [640, 480]
+target_resolution: [640, 480]
+intermediate_resolution: [640, 480]
+input_resolution: [630, 476]
+datasets:
+  - industrialhall
+  - farmfield
+  - glacierflight
+  - ballasttank
+  - underwaterfjord
