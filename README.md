@@ -37,6 +37,8 @@ The script extracts the dataset, creates a local virtual environment, installs t
 ```
 
 ## Dataset
+The dataset is stored in dataset/*.zip as Git LFS files. Make sure to install LFS support (e.g. `apt install git-lfs`) and then pull the files after cloning the repository (`git lfs pull`).
+
 ### File Structure
 The archive has the following file structure:
 ```
